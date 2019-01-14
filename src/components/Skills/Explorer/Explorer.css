@@ -1,0 +1,9 @@
+.Explorer{
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    border-top: 25px solid grey;
+    display: flex;
+    align-items: center
+}

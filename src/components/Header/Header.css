@@ -1,0 +1,38 @@
+.App-header {
+    background-color: #050f1d;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 1vmin);
+    color: white;
+  }
+  .App-header div.header{
+
+    flex: 2;
+    margin-left: 10vh;
+  }
+
+  .App-header div.code{
+    text-align: right;
+    flex: 2;
+    opacity: 0.1;
+    filter: alpha(opacity=30);
+    margin-right:2%;
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+     -ms-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+         transition: opacity 1s ease-in-out;
+  }
+  .App-header div.code div{
+    padding-top: 50px;
+  }
+  .App-header div.code div{
+    margin-right: 10vh;
+  }
+  .App-header div.code:hover{
+    opacity: 1;
+  }
