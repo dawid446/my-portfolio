@@ -1,9 +1,15 @@
 .Explorer{
     background-color: white;
-    width: 700px;
-    height: 600px;
+    width: 50%;
+    height: 70%;
     border-radius: 20px;
     border-top: 25px solid grey;
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+}
+.Cicrular{
+
+    width: 100px;
+
 }
