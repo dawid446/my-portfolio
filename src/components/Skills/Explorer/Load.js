@@ -20,11 +20,21 @@ class Load extends Component {
     render() {
         if (this.state.counter < 100) {
             return (
-                <CircularProgressbar percentage={this.state.counter} text={`${this.state.counter}%`}></CircularProgressbar>
+                <div className="Cicrular">Loading...
+                <CircularProgressbar styles={{
+                    path: {
+                        stroke: '#F45A36'
+                    },
+                    text:{
+                        fill: '#F45A36',
+                        fontSize: '20px'
+                    }
+                }} percentage={this.state.counter} text={`${this.state.counter}%`}></CircularProgressbar>
+                </div>
             );
         }
         return (
-                <SkillList></SkillList>
+            <SkillList></SkillList>
 
 
         )

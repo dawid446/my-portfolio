@@ -1,10 +1,9 @@
 import React from 'react';
 
-const SkillList = () =>
-{
-    return(
-        <div>
-            <ul>
+const SkillList = () => {
+    return (
+
+        <ul>
             <li>C#</li>
             <li>WebApi</li>
             <li>HTML</li>
@@ -12,8 +11,10 @@ const SkillList = () =>
             <li>ASP.NET MVC 5</li>
             <li>JS</li>
             <li>React</li>
-            </ul>
-        </div>
+        </ul>
+
+
+
     );
 }
 export default SkillList;

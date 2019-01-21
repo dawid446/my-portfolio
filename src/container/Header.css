@@ -19,7 +19,8 @@
     flex: 2;
     opacity: 0.1;
     filter: alpha(opacity=30);
-    margin-right:2%;
+    margin-right:2vw;
+    font-size: 1em;
 
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -35,4 +36,11 @@
   }
   .App-header div.code:hover{
     opacity: 1;
+    opacity: 1;
   }
+
+  @media (max-width: 750px) {
+    .code {
+       display: none;
+      }
+    }

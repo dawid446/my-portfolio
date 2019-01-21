@@ -1,15 +1,25 @@
 .Explorer{
     background-color: white;
-    width: 50%;
-    height: 70%;
+    width: 40vw;
+    height: 50vh;
     border-radius: 20px;
-    border-top: 25px solid grey;
     display: flex;
+    flex-direction: column;
+
     align-items: center;
-    justify-content: center;
 }
 .Cicrular{
 
-    width: 100px;
-
+    width: 120px;
 }
+
+.Bar{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 100%;
+    height: 8%;
+    background-color: grey;
+    border-radius: 20px 20px 0px 0px;
+}
+

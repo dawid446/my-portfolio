@@ -9,9 +9,7 @@ function Header(){
             <h1>Dawid Majewski</h1>
             <h2>Junior C# Web Developer</h2>
           </div>
-          <div className="empty">
 
-          </div>
           <div className="code">
             <div>
               .h1 <br></br>

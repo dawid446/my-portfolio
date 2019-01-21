@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Skill from './container/Skills';
-import Header from './components/Header/Header';
+import Header from './container/Header';
+
 class App extends Component {
 
 
